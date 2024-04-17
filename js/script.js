@@ -1,4 +1,5 @@
 var quantidademadeira = parseInt(0)
+var mpedraBoolean = Boolean(false)
 
 function confirmarnickname(){
     var nickname = document.getElementById("nomedousuario").value;
@@ -19,7 +20,7 @@ function coletarmadeira(){
     var machadoselecionadovalor = parseInt(document.getElementById("selectmachado").value)
     quantidademadeira = quantidademadeira+machadoselecionadovalor
     document.getElementById("quantidademadeira").innerHTML = `Você possui: ${quantidademadeira} Madeiras`
-    if (quantidademadeira>=100){
+    if (quantidademadeira>=100 && mpedraBoolean == false){
         document.getElementById("botaomachadopedra").style.display = "block"
     }
 }
@@ -28,4 +29,5 @@ function comprarmachadopedra(){
     quantidademadeira = quantidademadeira-100
     document.getElementById("botaomachadopedra").style.display = "none"
     document.getElementById("machadopedra").style.display = "block"
+    mpedraBoolean = true
 }
