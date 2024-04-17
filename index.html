@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broski's Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Digite seu nome aqui!" id="nomedousuario">
+        <button onclick="confirmarnickname()" id="buttonconfirmarnickname">Confirmar!</button>
+    </div>
+    <div>
+        <marquee>
+            <h2 id="welcome"></h2>
+        </marquee>
+    </div>
+    <main>
+        <p id="quantidademadeira"></p>
+        <select name="Machado" id="selectmachado">
+            <option value="1">Machado de Madeira</option>
+        </select>
+        <button id="buttoncoletarmadeira" style="display: none;" onclick="coletarmadeira()">COLETAR MADEIRA!</button>
+        <p id="arvoreprincipal">𓍊𓋼𓍊𓋼𓍊</p>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
