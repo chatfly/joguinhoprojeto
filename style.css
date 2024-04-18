@@ -17,9 +17,34 @@ body{
     padding: 15px;
 }
 
+#divnome{
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+#nomedousuario{
+    padding: 30px;
+    text-align: start;
+    font-size: 20px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+#buttonconfirmarnickname{
+    width: 60px;
+    background-color: rgb(132, 192, 129);
+    border-radius: 0px 0px 10px 0px;
+}
+
+#buttonconfirmarnickname:hover{
+    background-color: rgb(89, 148, 86);
+}
+
 #selectmachado{
     margin-left: 50px;
     display: none;
+    margin-bottom: 10px;
+    width: 159px;
 }
 
 #arvoreprincipal{

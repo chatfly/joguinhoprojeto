@@ -3,6 +3,7 @@ var mpedraBoolean = Boolean(false)
 
 function confirmarnickname(){
     var nickname = document.getElementById("nomedousuario").value;
+    
     document.getElementById("buttonconfirmarnickname").style.display = "none"
     document.getElementById("nomedousuario").style.display = "none"
     document.getElementById("welcome").innerHTML = `┌─────────•✧✧•─────────────┐
@@ -13,6 +14,8 @@ function confirmarnickname(){
     document.getElementById("buttoncoletarmadeira").style.display = "block"
     document.getElementById("selectmachado").style.display = "block"
     document.getElementById("arvoreprincipal").style.display = "block"
+
+    document.getElementById("divnome").remove()
 }
 
 
