@@ -14,6 +14,7 @@ function confirmarnickname(){
     document.getElementById("buttoncoletarmadeira").style.display = "block"
     document.getElementById("selectmachado").style.display = "block"
     document.getElementById("arvoreprincipal").style.display = "block"
+    document.getElementById("menuselecionar").style.display = "block"
 
     document.getElementById("divnome").remove()
 }
